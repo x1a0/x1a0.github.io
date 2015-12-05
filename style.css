@@ -1,0 +1,171 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+#wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #E3E3E5;
+  padding-bottom: 20px;
+}
+
+.social-links {
+  /*text-align: right;*/
+  /*margin-top: 22px;*/
+}
+.social-links a,
+.social-links a:visited {
+  color: #45423E;
+  text-decoration: none;
+}
+.social-links a:hover {
+  color: #000;
+}
+.social-links a:before,
+.social-links a:after {
+  font-family: "socicon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 2
+  display: inline-block;
+  vertical-align: middle;
+}
+.social-links a:after {
+  padding-left: 8px;
+}
+.social-links a:before {
+  padding-right: 8px;
+}
+.social-links .email a:before {
+  content: "\e01f";
+}
+.social-links .github a:before {
+  content: "\e030";
+}
+@media only screen and (min-width: 48em) {
+  .social-links {
+    text-align: right;
+    margin-top: 22px;
+  }
+  .social-links .email a:after {
+    content: "\e01f";
+  }
+  .social-links .github a:after {
+    content: "\e030";
+  }
+  .social-links a:before {
+    content: "" !important;
+  }
+}
+
+.slope {
+  font-size: 0;
+  line-height: 0;
+  margin-top: -50px;
+  border-top: 50px solid transparent;
+  border-right: 1232px solid #020203;
+}
+
+.main {
+  background-color: #020203;
+  color: #888179;
+  padding-bottom: 20px;
+}
+
+.main a, .main a:visited {
+  color: #888179;
+}
+.main a:hover {
+  color: #E3E0E0;
+  text-decoration: none;
+}
+
+.main section {
+  margin-bottom: 5em;
+}
+
+.main h2 {
+  margin: .5em 0;
+  color: #ff8800;
+}
+
+.main h3 {
+  color: #C8C2BD;
+  margin: .5em 0;
+}
+.main h3 a,
+.main h3 a:visited {
+  color: #C8C2BD;
+}
+.main h3 a:hover {
+  color: #E3E0E0;
+}
+
+.main p {
+  margin: .5em 0 1em;
+}
+
+.job {
+  margin-bottom: 2em;
+}
+.job .duration {
+  font-size: 90%;
+  margin: 0;
+}
+.job h3 {
+  margin-top: 0;
+}
+.job .job-title {
+  color: #C8C2BD;
+  margin: 0;
+}
+.job p {
+  margin: .2em 0;
+}
+
+.education .duration {
+  font-size: 90%;
+  margin: 0;
+}
+
+.content {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+@media only screen and (min-width: 48em) {
+  .left {
+    border-right: 1px solid #45423E;
+    text-align: right;
+  }
+
+  .right {
+    border-left: 1px solid #45423E;
+    text-align: left;
+  }
+
+  .social-links {
+    text-align: right;
+    margin-top: 22px;
+  }
+  .social-links .email a:after {
+    content: "\e01f";
+  }
+  .social-links .github a:after {
+    content: "\e030";
+  }
+}
