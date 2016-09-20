@@ -138,6 +138,9 @@ h2 {
   margin: .2em 0;
 }
 
+.education {
+  margin-bottom: 2em;
+}
 .education .duration {
   font-size: 90%;
   margin: 0;
